@@ -1,0 +1,59 @@
+Pay Rates:
+Initial Consultation: $0 per/h
+Quotation : $0 per/h
+Proof of Concept Development: $35 per/h
+Contract Development: $40 per/h
+Product Review: $35 per/h
+Research and Development: $35 per/h
+Graphical Design: $35 per/h
+Application Architecture: $60 per/h
+SharePoint Admin: $40 per/h
+Visual Basic for Applications: $45 per/h
+Data Analysis: $50 per/h
+HTML/CSS/JavaScript: $55 per/h
+Python/DJANGO framework: $60 per/h
+Artificial Intelligence: $65 per/h
+Power Bi: $45 per/h
+Excel Dashboards: $40 per/h
+Excel Applications: $50 per/h
+Basic Macro Development: $35 per/h
+Consultation: $30 per/h
+BETA Testing: $30 per/h
+Database Creation and Management: $45 per/h
+Server Development and Management: $45 per/h
+Virtual Machine Development: $40 per/h
+Hardware Configuration: $45 per/h
+Documentation and Publishing: $40 per/h
+Application Maintenance: $40 per/h
+Training: $50 per/h
+Power Automate: $35 per/h
+PowerApps: $40 per/h
+Office 365 Admin: $45 per/h
+Domain Management: $45 per/h
+
+Fees:
+Ownership/Proprietary Code: 8%
+Goods and Services Tax: 10%
+Contract Amendment: 4%
+Contract Early Termination: 12%
+Contract Breach: 5%
+
+Rate Categories:
+Design
+Server Side Development 
+Graphical User Interface Development
+Administrator 
+Post Development
+Training
+Workflows
+Consultation
+Standalone Code
+
+Potential/Additional Costs:
+File Storage
+GitHub Anonymity
+Server Usage
+Domain Registration
+Legal Fees
+Hardware Requirements
+Proprietary Software
