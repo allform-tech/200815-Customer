@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .item1 {
+        grid-area: header;
+      }
+
+      .item2 {
+        grid-area: menu;
+      }
+
+      .item3 {
+        grid-area: main;
+      }
+
+      .item4 {
+        grid-area: right;
+      }
+
+      .item5 {
+        grid-area: footer;
+      }
+
+      .item6 {
+        grid-area: base;
+      }
+      .item7 {
+        grid-area: lables;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          'lables lables lables lables lables lables'
+          'header header header header header header'
+          'menu main main main right right'
+          'menu main main main right right'
+          'menu footer footer footer footer footer'
+          'base base base base base base';
+        grid-gap: 2px;
+        background-color: #000;
+        padding: 2px;
+      }
+      
+      .grid-container>div {
+        background-color: #fff;
+        text-align: center;
+        padding: 2px 0;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item7" id="metrics">Metrics</div>
+      <div class="item1" id="lineAreaChart">Line/Area Chart</div>
+      <div class="item2" id="map">Map</div>
+      <div class="item3" id="pieChart1">Pie Chart</div>
+      <div class="item4" id="pieChart2">Pie Chart</div>
+      <div class="item5" id="horisontalBarChart">Horisontal Bar Chart</div>
+      <div class="item6" id="table">Table</div>
+    </div>
+  </body>
+</html>
