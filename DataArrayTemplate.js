@@ -3,13 +3,15 @@ datasets = [{
 pageOptions : {
 	pageTitle : "My Page",
 	backgroundImage : "url",
-	backgroundColor : #fff,
-	primaryColor : #000,
-	secondaryColor : red,
-	tersiaryColor : gray,
+	backgroundColor : "#fff",
+	primaryColor : "#000",
+	secondaryColor : "red",
+	tersiaryColor : "gray",
 	primaryTextColor : #fff,
-	secondaryTextColor : red,
+	secondaryTextColor : "red",
 },
+
+chartColors : ["red", "green", ...],
 
 menuBarLinks : [
 	["Title", "url"],
@@ -21,8 +23,8 @@ mainDashboard : {
         include : true,
         title : "My Dashboard",
         metrics : [
-               [3, "sum", red, "prefix", "Sufix"],
-               [4, "average", blue, "prefix", "Sufix"],
+               [3, "sum", "red", "prefix", "Sufix"],
+               [4, "average", "blue", "prefix", "Sufix"],
                ...
         ],
         charts : [
