@@ -33,16 +33,30 @@ mainDashboard : {
         ]
 }
 
+linkedColumns : [
+        [1,2,3,4],
+        [1,2,3,4],
+        ....
+],
+
+locationDashboard : [
+        [0,3],
+        [2,3],
+        ...
+],
+
+ownerDashboards : [
+        [0,3],
+        [2,3],
+        ...
+],,
+
+
 datasets : [
 	{
 		datasetTitle : "Tasks",
 		datasetName : "Tasks",
-		linkedTimeline : true,
-		linkedColumns : [1,2,3,4],
 		primaryDataset : true,
-		masterDashboard : true,
-		ownerDashboards : 3,
-		locationDashboard : 4,
 		metrics : [
 			[3, "sum", red, "prefix", "Sufix"],
                         [4, "average", blue, "prefix", "Sufix"],
