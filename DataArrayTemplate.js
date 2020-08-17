@@ -28,8 +28,8 @@ datasets : [
 		ownerDashboards : 3,
 		locationDashboard : 4,
 		metrics : [
-			[3, "sum"],
-			[4, "average"],
+			[3, "sum", red],
+			[4, "average", blue],
 			...
 		],
 		timeline : true,
