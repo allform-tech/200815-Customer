@@ -60,8 +60,8 @@ datasets : [
 		datasetName : "Tasks",
 		primaryDataset : true,
 		metrics : [
-			[3, "sum", red, "prefix", "Sufix"],
-                        [4, "average", blue, "prefix", "Sufix"],
+			[3, "sum", "red", "prefix", "Sufix"],
+                        [4, "average", "blue", "prefix", "Sufix"],
 			...
 		],
 		charts : [
