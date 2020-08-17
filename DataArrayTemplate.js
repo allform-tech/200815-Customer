@@ -31,7 +31,7 @@ mainDashboard : {
                ["map", [1, 2, 3], [0,1,2]],
                ...
         ]
-}
+},
 
 linkedColumns : [
         [1,2,3,4],
@@ -49,7 +49,7 @@ ownerDashboards : [
         [0,3],
         [2,3],
         ...
-],,
+],
 
 
 datasets : [
