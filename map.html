@@ -10,49 +10,42 @@
   padding:2px;
   opacity: .9;
 }
-
 .qld {
   position: absolute;
   left: 290px;
   top: 120px;
   text-align: center;
 }
-
 .nsw {
   position: absolute;
   left: 320px;
   top: 220px;
   text-align: center;
 }
-
 .act {
   position: absolute;
   left: 320px;
   top: 260px;
   text-align: center;
 }
-
 .vic {
   position: absolute;
   left: 300px;
   top: 290px;
   text-align: center;
 }
-
 .sa {
   position: absolute;
   left: 200px;
   top: 200px;
   text-align: center;
 }
-
 .nt {
   position: absolute;
   left: 190px;
   top: 100px;
   text-align: center;
 }
-
 .wa {
   position: absolute;
   left: 70px;
@@ -68,9 +61,7 @@
 }
 .mapdata{
   font-size:10pt;
-  
 }
-
 .div {
   position: relative;
 }
@@ -79,41 +70,76 @@
 </head>
 
 <body>
-<div class="div">
+  <div class="div">
 
-  <div class="qld">
-    <h6 class="mapdata mapdatacolor"><b>QLD:</b> 15%</h6>
+    <div class="qld" id="qld" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>QLD:</b> 15%</h6>
+    </div>
+
+    <div class="nsw" id="nsw" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>NSW:</b> 15%</h6>
+    </div>
+
+    <div class="act" id="act" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>ACT:</b> 15%</h6>
+    </div>
+
+    <div class="vic" id="vic" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>VIC:</b> 15%</h6>
+    </div>
+
+    <div class="sa" id="sa" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>SA:</b> 15%</h6>
+    </div>
+
+    <div class="nt" id="nt" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>NT:</b> 15%</h6>
+    </div>
+
+    <div class="wa" id="wa" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>WA:</b> 15%</h6>
+    </div>
+
+    <div class="tas" id="tas" onclick="alt(this.id)">
+      <h6 class="mapdata mapdatacolor"><b>TAS:</b> 15%</h6>
+    </div>
+    <img src="https://i.redd.it/hxyk0cpxp7731.png" style="height:400px;">
   </div>
 
-  <div class="nsw">
-    <h6 class="mapdata mapdatacolor"><b>NSW:</b> 15%</h6>
-  </div>
-  
-  <div class="act">
-    <h6 class="mapdata mapdatacolor"><b>ACT:</b> 15%</h6>
-  </div>
+  <script>
+    function alt(cls){
+
+      switch (cls) {
+        case "qld":
+            alert("hi Queenslander")
+          break;
+        case "nsw":
+            alert("The Mid east")
+          break;
+        case "vic":
+            alert("hi Mexican")
+          break;
+        case "tas":
+            alert("hi down there")
+          break;
+        case "sa":
+            alert("hi who are you")
+          break;
+        case "nt":
+            alert("hi up there")
+          break;
+        case "vic":
+            alert("way way west")
+          break;
+        case "act":
+            alert("capital")
+          break;
+        default:
+          alert("hi")
+      }
 
 
-  <div class="vic">
-    <h6 class="mapdata mapdatacolor"><b>VIC:</b> 15%</h6>
-  </div>
-
-  <div class="sa">
-    <h6 class="mapdata mapdatacolor"><b>SA:</b> 15%</h6>
-  </div>
-  
-  <div class="nt">
-    <h6 class="mapdata mapdatacolor"><b>NT:</b> 15%</h6>
-  </div>
-  
-  <div class="wa">
-    <h6 class="mapdata mapdatacolor"><b>WA:</b> 15%</h6>
-  </div>
-  
-  <div class="tas">
-    <h6 class="mapdata mapdatacolor"><b>TAS:</b> 15%</h6>
-  </div>
-  <img src="https://i.redd.it/hxyk0cpxp7731.png" style="height:400px;">
-</div>
+    }
+  </script>
 </body>
 </html>
