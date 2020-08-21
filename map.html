@@ -3,60 +3,64 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style>
+.imgmap {
+  opacity: 1;
+  height:600px;
+}
 .mapdatacolor{
   background-color: #eb3437;
   border: black solid 1px;
   border-radius: 8px;
   padding:2px;
-  opacity: .9;
+  opacity: 9;
 }
 .qld {
   position: absolute;
-  left: 290px;
-  top: 120px;
+  left: 420px;
+  top: 220px;
   text-align: center;
 }
 .nsw {
   position: absolute;
-  left: 320px;
-  top: 220px;
+  left: 430px;
+  top: 330px;
   text-align: center;
 }
 .act {
   position: absolute;
-  left: 320px;
-  top: 260px;
+  left: 420px;
+  top: 370px;
   text-align: center;
 }
 .vic {
   position: absolute;
-  left: 300px;
-  top: 290px;
+  left: 400px;
+  top: 410px;
   text-align: center;
 }
 .sa {
   position: absolute;
-  left: 200px;
-  top: 200px;
+  left: 280px;
+  top: 300px;
   text-align: center;
 }
 .nt {
   position: absolute;
-  left: 190px;
-  top: 100px;
+  left: 260px;
+  top: 150px;
   text-align: center;
 }
 .wa {
   position: absolute;
-  left: 70px;
-  top: 150px;
+  left: 90px;
+  top: 250px;
   text-align: center;
 }
 
 .tas {
   position: absolute;
-  left: 320px;
-  top: 350px;
+  left: 400px;
+  top: 490px;
   text-align: center;
 }
 .mapdata{
@@ -103,7 +107,7 @@
     <div class="tas" id="tas" onclick="alt(this.id)">
       <h6 class="mapdata mapdatacolor"><b>TAS:</b> 15%</h6>
     </div>
-    <img src="https://i.redd.it/hxyk0cpxp7731.png" style="height:400px;">
+    <img src="http://maps.unomaha.edu/peterson/funda/MapLinks/Australia/Australia_files/image005.jpg" class="imgmap">
   </div>
 
   <script>
@@ -111,31 +115,34 @@
 
       switch (cls) {
         case "qld":
-            alert("hi Queenslander")
+            alert("QLD")
           break;
         case "nsw":
-            alert("The Mid east")
+            alert("NSW")
           break;
         case "vic":
-            alert("hi Mexican")
+            alert("VIC")
           break;
         case "tas":
-            alert("hi down there")
+            alert("TAS")
           break;
         case "sa":
-            alert("hi who are you")
+            alert("SA")
           break;
         case "nt":
-            alert("hi up there")
+            alert("NT")
           break;
         case "vic":
-            alert("way way west")
+            alert("VIC")
           break;
         case "act":
-            alert("capital")
+            alert("ACT")
+          break;
+        case "wa":
+            alert("WA")
           break;
         default:
-          alert("hi")
+          alert("Error")
       }
 
 
