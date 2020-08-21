@@ -4,7 +4,7 @@
 
 <style>
 .imgmap {
-  opacity: 1;
+  //opacity: 1;
   height:600px;
 }
 .mapdatacolor{
@@ -12,8 +12,15 @@
   border: black solid 1px;
   border-radius: 8px;
   padding:2px;
-  opacity: 9;
+  opacity: .9;
 }
+/*.mapdatacolor:hover{
+  background-color: #ed7274;
+  border: black solid 1px;
+  border-radius: 8px;
+  padding:2px;
+  opacity: 9;
+}*/
 .qld {
   position: absolute;
   left: 420px;
@@ -77,43 +84,55 @@
   <div class="div">
 
     <div class="qld" id="qld" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>QLD:</b> 15%</h6>
+      <h6 id="qlddata" class="mapdata mapdatacolor"><b>QLD:</b> 15%</h6>
     </div>
 
     <div class="nsw" id="nsw" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>NSW:</b> 15%</h6>
+      <h6 id="nswdata" class="mapdata mapdatacolor"><b>NSW:</b> 15%</h6>
     </div>
 
     <div class="act" id="act" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>ACT:</b> 15%</h6>
+      <h6 id="actdata" class="mapdata mapdatacolor"><b>ACT:</b> 15%</h6>
     </div>
 
     <div class="vic" id="vic" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>VIC:</b> 15%</h6>
+      <h6 id="vicdata" class="mapdata mapdatacolor"><b>VIC:</b> 15%</h6>
     </div>
 
     <div class="sa" id="sa" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>SA:</b> 15%</h6>
+      <h6 id="sadata" class="mapdata mapdatacolor"><b>SA:</b> 15%</h6>
     </div>
 
     <div class="nt" id="nt" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>NT:</b> 15%</h6>
+      <h6 id="ntdata" class="mapdata mapdatacolor"><b>NT:</b> 15%</h6>
     </div>
 
     <div class="wa" id="wa" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>WA:</b> 15%</h6>
+      <h6 id="wadata" class="mapdata mapdatacolor"><b>WA:</b> 15%</h6>
     </div>
 
     <div class="tas" id="tas" onclick="alt(this.id)">
-      <h6 class="mapdata mapdatacolor"><b>TAS:</b> 15%</h6>
+      <h6 id="tasdata" class="mapdata mapdatacolor"><b>TAS:</b> 15%</h6>
     </div>
     <img src="http://maps.unomaha.edu/peterson/funda/MapLinks/Australia/Australia_files/image005.jpg" class="imgmap">
   </div>
 
   <script>
-    function alt(cls){
 
-      switch (cls) {
+  function defColor() {
+    document.getElementById('qlddata').style.backgroundColor = "#eb3437";
+    document.getElementById('nswdata').style.backgroundColor = "#eb3437";
+    document.getElementById('vicdata').style.backgroundColor = "#eb3437";
+    document.getElementById('tasdata').style.backgroundColor = "#eb3437";
+    document.getElementById('sadata').style.backgroundColor = "#eb3437";
+    document.getElementById('wadata').style.backgroundColor = "#eb3437";
+    document.getElementById('ntdata').style.backgroundColor = "#eb3437";
+    document.getElementById('actdata').style.backgroundColor = "#eb3437";
+  }
+    function alt(cls){
+      defColor();
+      document.getElementById(cls+"data").style.backgroundColor = "#ed7274";
+      /*switch (cls) {
         case "qld":
             alert("QLD")
           break;
@@ -143,9 +162,7 @@
           break;
         default:
           alert("Error")
-      }
-
-
+      }*/
     }
   </script>
 </body>
